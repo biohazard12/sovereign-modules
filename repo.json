@@ -1,0 +1,22 @@
+{
+  "modules": [
+    {
+      "id": "playintegrityfix",
+      "name": "Play Integrity Fix",
+      "version": "19.0",
+      "author": "chiteroman",
+      "description": "Spoofs device fingerprint to pass Play Integrity checks.",
+      "icon_url": null,
+      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/v19.0/playintegrityfix.zip"
+    },
+    {
+      "id": "zygisk_lsposed",
+      "name": "Zygisk LSPosed",
+      "version": "1.10.1",
+      "author": "LSPosed",
+      "description": "Xposed framework on modern Android via Zygisk.",
+      "icon_url": null,
+      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/v1.10.1/zygisk_lsposed.zip"
+    }
+  ]
+}
