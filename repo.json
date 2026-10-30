@@ -1,22 +1,24 @@
 {
   "modules": [
     {
-      "id": "playintegrityfix",
-      "name": "Play Integrity Fix",
-      "version": "19.0",
-      "author": "chiteroman",
-      "description": "Spoofs device fingerprint to pass Play Integrity checks.",
-      "icon_url": null,
-      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/v19.0/playintegrityfix.zip"
+      "id": "sovereign-battery-guardian",
+      "name": "Sovereign Battery Guardian",
+      "version": "0.3",
+      "version_code": 3,
+      "author": "Sovereign Labs",
+      "description": "Sovereign's own battery module: applies your doze and background limits at every boot. Script-only \u2014 runs fully on the Sovereign module engine.",
+      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/catalog-v1/sovereign-battery-guardian-v0.3.zip",
+      "update_url": ""
     },
     {
-      "id": "zygisk_lsposed",
-      "name": "Zygisk LSPosed",
-      "version": "1.10.1",
-      "author": "LSPosed",
-      "description": "Xposed framework on modern Android via Zygisk.",
-      "icon_url": null,
-      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/v1.10.1/zygisk_lsposed.zip"
+      "id": "sovereign-core",
+      "name": "Sovereign Core",
+      "version": "0.1-stage0",
+      "version_code": 1,
+      "author": "Sovereign Labs",
+      "description": "Flagship Sovereign module, stage 0: boot-attempt tracking for Rescue Guard, per-install token bootstrap, and the service launcher. Script-only \u2014 runs on the Sovereign module engine.",
+      "zip_url": "https://github.com/biohazard12/sovereign-modules/releases/download/catalog-v1/sovereign-core-v0.1-stage0.zip",
+      "update_url": ""
     }
   ]
 }
